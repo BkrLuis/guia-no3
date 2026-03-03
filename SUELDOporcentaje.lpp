@@ -1,0 +1,22 @@
+entero sueldo
+real porcentaje
+real descuento
+real netoPagar
+
+inicio
+    escriba "Ingrese el sueldo del trabajador: "
+    lea sueldo
+
+    si (sueldo <=1000000) entonces 
+        porcentaje <- 3
+    sino
+        porcentaje <-5
+    fin si
+
+    descuento <- sueldo * porcentaje / 100
+    netoPagar <- sueldo- descuento
+
+    escriba "El descuento aplicado es: ", descuento
+    escriba "El neto a pagar es: ", netoPagar
+fin
+

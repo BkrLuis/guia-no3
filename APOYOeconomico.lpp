@@ -1,0 +1,35 @@
+Entero edad, estrato
+Caracter sexo
+
+Inicio
+    Escriba "Ingrese el sexo (M/F):"
+    Lea sexo
+
+    Escriba "Ingrese la edad:"
+    Lea edad
+
+    Escriba "Ingrese el estrato:"
+    Lea estrato
+
+    Si sexo = 'F' Entonces
+        Si edad >= 18 Entonces
+            Si edad <= 25 Entonces
+                Si estrato = 1 Entonces
+                    Escriba "Apta para apoyo economico"
+                Sino
+                    Si estrato = 2 Entonces
+                        Escriba "Apta para apoyo economico"
+                    Sino
+                        Escriba "No apta para apoyo economico"
+                    Fin Si
+                Fin Si
+            Sino
+                Escriba "No apta para apoyo economico"
+            Fin Si
+        Sino
+            Escriba "No apta para apoyo economico"
+        Fin Si
+    Sino
+        Escriba "No apta para apoyo economico"
+    Fin Si
+Fin

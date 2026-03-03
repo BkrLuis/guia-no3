@@ -1,0 +1,14 @@
+Real compra, total
+
+Inicio
+    Escriba "Ingrese el total de la compra:"
+    Lea compra
+
+    Si compra > 1000 Entonces
+        total <- compra - (compra * 0.10)
+    Sino
+        total <- compra
+    Fin Si
+
+    Escriba "Total a pagar: ", total
+Fin

@@ -1,0 +1,32 @@
+Real a, b, c, mayor, menor
+
+Inicio
+    Escriba "Ingrese el primer numero:"
+    Lea a
+    Escriba "Ingrese el segundo numero:"
+    Lea b
+    Escriba "Ingrese el tercer numero:"
+    Lea c
+
+    mayor <- a
+    menor <- a
+
+    Si b > mayor Entonces
+        mayor <- b
+    Fin Si
+
+    Si c > mayor Entonces
+        mayor <- c
+    Fin Si
+
+    Si b < menor Entonces
+        menor <- b
+    Fin Si
+
+    Si c < menor Entonces
+        menor <- c
+    Fin Si
+
+    Escriba "El numero mayor es: ", mayor
+    Escriba "El numero menor es: ", menor
+Fin
